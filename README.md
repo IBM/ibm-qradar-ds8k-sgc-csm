@@ -4,7 +4,7 @@ This repository contains the sample script used as part of Cyber Resiliency (CR)
 
 # IBM Documentation #
 
-Refer to Resources [^Resources] section for various links to IBM Documentation about IBM DS8000, Copy Services Manager and also the solution blueprint.
+Refer to Resources section for various links to IBM Documentation about IBM DS8000, Copy Services Manager and also the solution blueprint.
 
 # Support #
 
@@ -42,10 +42,8 @@ Following arguments are required:
       -t/--csm_task
 ```
 
-[^Resources]
 ## Resources ##
 
 ### [IBM DS8000 SafeguardedCopy](https://www.ibm.com/docs/en/ds8880/8.5.4?topic=license-safeguarded-copy) ###
 ### [IBM Copy Services Manager](https://www.ibm.com/docs/en/csm) ###
 ### [Solution Blueprint](https://www.redbooks.ibm.com/abstracts/redp5677.html?Open) ###
-
