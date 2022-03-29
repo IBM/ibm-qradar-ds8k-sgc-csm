@@ -1,6 +1,10 @@
-# Readme #
+# Safeguarding Data with IBM QRadar and IBM Copy Services Manager on IBM DS8000 #
 
-This repository contains the sample script that can be used to invoke Safeguarded Copy on IBM DS8K using IBM Copy Services Manager (CSM) API commands.
+This repository contains the sample script used as part of Cyber Resiliency (CR) workflow. The CR workflow is a response to a threat detected by IBM QRadar. Upon invocation, the script makes several API calls to IBM Copy Services Manager (CSM) to execute SafeguardedCopy function on DS8000 storage.
+
+# IBM Documentation #
+
+Refer to Resources [^Resources] section for various links to IBM Documentation about IBM DS8000, Copy Services Manager and also the solution blueprint.
 
 # Support #
 
@@ -38,6 +42,10 @@ Following arguments are required:
       -t/--csm_task
 ```
 
-## Other resources ##
+[^Resources]
+## Resources ##
 
-### [Blueprint](https://www.redbooks.ibm.com/abstracts/redp5677.html?Open) ###
+### [IBM DS8000 SafeguardedCopy](https://www.ibm.com/docs/en/ds8880/8.5.4?topic=license-safeguarded-copy) ###
+### [IBM Copy Services Manager](https://www.ibm.com/docs/en/csm) ###
+### [Solution Blueprint](https://www.redbooks.ibm.com/abstracts/redp5677.html?Open) ###
+
