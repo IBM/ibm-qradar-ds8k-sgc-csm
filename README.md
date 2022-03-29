@@ -2,7 +2,7 @@
 
 This repository contains the sample script used as part of Cyber Resiliency (CR) workflow. The CR workflow is a response to a threat detected by IBM QRadar. Upon invocation, the script makes several API calls to IBM Copy Services Manager (CSM) to execute SafeguardedCopy function on DS8000 storage.
 
-# IBM Documentation #
+# Documentation #
 
 Refer to Resources section for various links to IBM Documentation about IBM DS8000, Copy Services Manager and also the solution blueprint.
 
