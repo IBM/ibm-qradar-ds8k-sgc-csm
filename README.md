@@ -25,7 +25,7 @@ Following section lists the pre-requisites.
  - Copy Services Manager installation
  - Identification of volumes that needs safeguarding
  - Metro/Global mirror copy relationship of the volumes ( if required )
- - Safeguarded Copy volumes alocation
+ - Safeguarded Copy volumes allocation
 
 # run-cr-wflow-ds8k.py #
 
