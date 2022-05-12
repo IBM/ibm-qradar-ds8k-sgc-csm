@@ -31,6 +31,14 @@ Following section lists the pre-requisites.
 
 The script is a python implementation of a wrapper to invoke CSM API commands to interact with DS8K storage to invoke DS8K - Safeguarded Copy functionality. It is deployed in IBM QRadar environment with a set of parameters shown below by the Usage section.
 
+Note: The value for CSM_USER and CSM_PASS <b>must<b> be base64 encoded. Use following guidelines to obtain the base64 value.
+ 
+```
+ echo "CSM_USERNAME" | base64 
+ echo "CSM_PASSWORD" | base64
+```
+
+
 # Usage #
 ```
 Usage: run-cr-wflow-ds8k.py [-h] -s CSM_SERVER [-P CSM_PORT] -u CSM_USER -p CSM_USER_PASSWD -t CSM_TASK
